@@ -1,5 +1,8 @@
 # Nuxt Minimal Starter
 
+**Note on assets:**  
+Design and logo assets (such as Kavia_Logo_2.png) should be placed in `/public/assets/` for correct static serving with Nuxt. Update the image `src` references as `/assets/...` for use in components/pages.
+
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup

@@ -18,6 +18,7 @@
             alt="Kavia"
             class="h-[22px] min-w-[22px]"
             style="padding-left: 8px"
+            onerror="this.onerror=null;this.src='/Kavia_Logo_2.png';"
           />
         </div>
 
@@ -132,7 +133,7 @@
       <div class="w-full max-w-7xl flex flex-col md:flex-row justify-between gap-12 md:gap-0">
         <!-- Left: Logo & Brand -->
         <div class="flex flex-col gap-4 md:w-1/3">
-          <img src="/assets/Kavia_Logo_2.png" alt="Kavia" class="h-7 w-auto mb-2" />
+          <img src="/assets/Kavia_Logo_2.png" alt="Kavia" class="h-7 w-auto mb-2" onerror="this.onerror=null;this.src='/Kavia_Logo_2.png';" />
           <p class="max-w-xs text-sm text-[#efe7dc]">
             Kavia – Advanced, scalable, and simple software creation platform for everyone.
           </p>
